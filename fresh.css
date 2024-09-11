@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Loc:hover{
+    background-color: rgb(192, 191, 191);
+}
+
+#Loc{
+    height: 40px;
+}
+
+#search{
+    width: 470px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+#s,#ad{
+    background-color: rgb(102, 209, 102);
+}
+
+#s:hover,#ad:hover{
+    background-color: rgb(83, 170, 83);
+}
+
+#banner{
+    background-color:#dd9f30;
+    height: 400px;
+}
+
+#banner img{
+    border-radius: 50%;
+}
+
+#a1,#a2{
+    border-radius: 50%;
+}
+
+@media screen and (max-width:786px){
+    #logo{
+        display: none;
+    }
+    #banner img{
+        display: none;
+    }
+    #banner {
+        height: auto;
+        padding: 50px;
+    }
+}
+@media screen and (max-width:1121px){
+    #search{
+        width: 120px;
+    }
+}
