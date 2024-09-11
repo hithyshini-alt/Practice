@@ -1,0 +1,22 @@
+body{
+    margin: 4%;
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    border-radius: 10%;
+    width: 100%;
+}
+th, td{
+    border: 2px solid ;
+    text-align: center;
+    padding: 10px;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+p{
+    margin: 0 auto;
+    max-width: 80%;
+}
